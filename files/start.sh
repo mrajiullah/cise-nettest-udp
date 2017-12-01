@@ -1,12 +1,10 @@
 #!/bin/bash
 
-
 cd /opt/monroe/
 
-echo "Experiment starts ..."
+echo "DBG: Nettest+udpbwestimator container is starting ..."
 
-make
-
+#make
 
 python udpbwestimator.py
 wait 15
